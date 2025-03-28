@@ -388,6 +388,10 @@ input {
   -webkit-mask-repeat: no-repeat;
 }
 
+.search-modal-input {
+	color: var(--spice-text) !important;
+}
+
 /* recolor animated liked or heart button on click */
 #_R_G *:not([fill="none"]) {
     fill: var(--spice-button-active) !important;
