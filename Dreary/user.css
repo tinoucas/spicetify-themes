@@ -126,10 +126,10 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 }
 
 .playback-bar {
-  width: 100%;
-  bottom: 83px;
   position: absolute;
+  bottom: 100%;
   left: -1px;
+  width: 100%;
   z-index: 1;
 }
 
@@ -458,7 +458,7 @@ p.main-buddyFeed-timestamp.main-type-finale,
   background-color: rgba(var(--spice-rgb-selected-row), 0.6) !important;
   border: solid 3px var(--spice-text);
   border-radius: 10px;
-  padding-bottom: 80.7px;
+  padding-bottom: 48px;
   transition: 500ms;
 }
 
@@ -606,4 +606,7 @@ div.main-cardImage-imageWrapper.main-cardImage-roundedCorners
 }
 #spicetify-playlist-list > div {
   height: 100% !important;
+}
+.main-nowPlayingBar-nowPlayingBar {
+  position: relative;
 }
